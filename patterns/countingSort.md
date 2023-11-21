@@ -11,11 +11,8 @@
 - Space O(k)
 k is the size of the range of possible values
 
-### Keywords
+### Application
 - Leetcode problems that involve the frequency of small integers may indicate counting sort as a viable solution
-
-### Examples
-[1887. Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)
 
 ### Misc
 - Stable sort algorithm (same value will retain relative order)
@@ -23,3 +20,6 @@ k is the size of the range of possible values
 - Non-Comparison based - values are not compared for sorting
 - Unsuitable for large ranges 
 - Applied as subroutine in Radix Sort
+
+### Examples
+- [1887. Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)
