@@ -2,6 +2,7 @@
 - (a + b) % MOD = (a % MOD + b % MOD) % MOD
 - (a * b) % MOD = (a % MOD * b % MOD) % MOD
 - (a - b) % MOD = (a % MOD - b % MOD + MOD) % MOD
+- Math.floorMod(n, MOD) will always return positive number
 
 ### Pointers
 - Apply every iteration
