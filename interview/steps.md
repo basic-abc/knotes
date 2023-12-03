@@ -15,8 +15,12 @@
 - Explain while coding
 
 4. Rework
+- (When stuck, steps to review your work)
+  - Is it wrong?
+    - What observation or pattern are you missing?
+  - Is it inefficient?
+    - Consider different data structures?
 - Ask questions when stuck
-- Consider different data structures
 - Incorporate feedback immediately
 
 5. Definition of done

@@ -26,3 +26,13 @@ while (j < N) {
 }
 return j - i; // there must be a maximum window of size `j - i`
 ```
+
+### Substring
+- Finding all valid occurrence of a substring is commonly solved with sliding window
+- Determine if the window is shrinkable or not (if valid substrings will have a fixed length)
+  - If shrinkable, the template may be applied directly
+  - If not shrinkable, loop through the valid substring window sizes and apply sliding window to each valid window size
+
+#### Examples
+- [2953. Count Complete Substrings
+](https://leetcode.com/problems/count-complete-substrings/description/)
