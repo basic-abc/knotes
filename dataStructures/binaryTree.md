@@ -1,3 +1,6 @@
+### Application
+- Approach binary tree questions by considering the operation order & traversal order - when to apply condition check, when to update answer with valid state
+
 ### Traversal
 #### Preorder
 - Root -> Left -> Right

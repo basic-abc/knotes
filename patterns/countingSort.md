@@ -11,7 +11,7 @@
 - Space O(k)
 k is the size of the range of possible values
 
-### Application
+### Applications
 - Leetcode problems that involve the frequency of small integers may indicate counting sort as a viable solution
 
 ### Misc

@@ -12,7 +12,7 @@ Between any two queries, the most l can differ is O(sqrt(n)). Extended to all qu
 
 - Space O(q) to store the result of every query
 
-### Application
+### Applications
 - All queries are known beforehand and can be sorted
 - Queries cannot be updated (read only, offline queries)
 - If caching [l, r] can be beneficial to answering [l-1, r], [l+1, r], [l, r-1], [l, r+1]

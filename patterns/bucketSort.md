@@ -9,7 +9,7 @@
 - Space O(n + k)
 k is the number of buckets
 
-### Application
+### Applications
 - Effective when input is distributed over a short range
 
 ### Misc

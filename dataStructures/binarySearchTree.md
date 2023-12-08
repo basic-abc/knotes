@@ -1,5 +1,4 @@
 ### Applications
-
 - Consider upper and lower limits for each subproblem, i.e. pass them as arguments in recursive implementations
 
 ### Reconstruction from traversal
