@@ -1,3 +1,6 @@
+### Applications
+- When given a sorted array, always think of how binary search can be applied
+
 ### Template
 ```
 int l = start
