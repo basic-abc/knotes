@@ -1,5 +1,6 @@
 ### Application
-- Approach binary tree questions by considering the operation order & traversal order - when to apply condition check, when to update answer with valid state
+- Approach the question by considering all traversal options - BFS (queue - level) or DFS (stack/recursive - preorder, inorder, postorder)
+    - DFS: Consider the operation order & traversal order - when to apply condition check, when to update answer with valid state
 
 ### Traversal
 #### Preorder

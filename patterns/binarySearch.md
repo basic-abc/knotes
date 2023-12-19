@@ -1,6 +1,11 @@
 ### Applications
 - When given a sorted array, always think of how binary search can be applied
 
+#### Target
+- Most of the time, binary search is used to find the insertion point; there are other possibilities however
+- It can be applied to find the subarray/window of length k closest to target in a sorted list by comparing the left bound & right bound (as they cannot both be included in the answer), `Math.abs(target - arr[mid + k]) < Math.abs(target - arr[mid])` in [Approach 4 of 272. Closest Binary Search Tree Value II
+](https://leetcode.com/problems/closest-binary-search-tree-value-ii/editorial/?envType=study-plan-v2&envId=premium-algo-100)
+
 ### Template
 ```
 int l = start
