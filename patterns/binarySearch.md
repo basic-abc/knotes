@@ -1,5 +1,6 @@
 ### Applications
 - When given a sorted array, always think of how binary search can be applied
+- A division of the valid and invalid values at the optimal value also hints binary search as a viable method
 
 #### Target
 - Most of the time, binary search is used to find the insertion point; there are other possibilities however
@@ -22,3 +23,7 @@ while (l < r) { // this ensures while loop always exits on l == r
 }
 return arr[l] == target ? l : -1;
 ```
+
+#### mid
+- l + (r - l) / 2 favors the left value, or the minimal viable value; this must be accompanied by l = mid + 1, r = mid
+- l + (r - l + 1) / 2 favors the right value, or the maximum viable value; this must be accompanied by r = mid - 1, l = mid
