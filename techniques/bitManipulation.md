@@ -2,6 +2,7 @@
 - shifting n >>= 1
 - mask = 1 << i
 - n & mask to find bit at mask index
+  - use n & mask != 0 (not equals 1 since bit will still be shifted to position)
 
 ### Signed vs Unsigned
 - Java does not have unsigned integers

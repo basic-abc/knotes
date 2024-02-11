@@ -9,6 +9,9 @@
 
 ### Pitfalls
 - Memorization must include each parameter in your recursive function to accurately memorize the state - think of using immutable identifiers over mutable structures to enable memorization
+- Do not mix a DFS / running total approach with DP; running total approaches rely on specific path, while DP is path independent
+  - DFS / running total will pass the accumulative result as an argument to the next function call
+  - DP will make the calculations within the current method call
 
 ### Tips
 - Always draw the decision tree for visualization
