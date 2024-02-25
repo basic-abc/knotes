@@ -27,14 +27,15 @@ private Map<Node, Integer> dijkstra(Map<Node, Map<Node, Integer>> graph, Node st
     while (!pq.isEmpty()) {
         Node cur = pq.poll();
 
-        if (cur.dist > shortestDistanceMap.get(cur, Integer.MAX_VALUE)) continue;
+        if (cur.dist > shortestDistanceMap.getOrDefault(cur, Integer.MAX_VALUE)) continue;
 
         for (Map.Entry<Node, Integer> edge : graph.getOrDefault(cur, Collections.emptyMap()).entrySet()) {
+            Node next = edge.getKey();
             int newDist = shortestDistanceMap.get(cur) + edge.getValue();
 
-            for (newDist < shortestDistanceMap.getOrDefault(0, Integer.MAX_VALUE)) {
-                shortestDistanceMap.put(Node, newDist);
-                pq.add(Node);
+            if (newDist < shortestDistanceMap.getOrDefault(next, Integer.MAX_VALUE)) {
+                shortestDistanceMap.put(next, newDist);
+                pq.add(next);
             }
         }
     }

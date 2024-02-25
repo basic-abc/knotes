@@ -1,7 +1,7 @@
 ### Applications
 - When given a sorted array, always think of how binary search can be applied
 - When working with a bounded solution space, if the check condition can be done within O(n), using the solution space as the search space may be viable
-- A division of the valid and invalid values at the optimal value also hints binary search as a viable method
+- IMPORTANT: A division of the valid and invalid values at the optimal value also hints binary search as a viable method
 
 #### Target
 - Most of the time, binary search is used to find the insertion point; there are other possibilities however
@@ -32,3 +32,4 @@ return arr[l] == target ? l : -1;
 ### Examples
 - [1231. Divide Chocolate](https://leetcode.com/problems/divide-chocolate/?envType=study-plan-v2&envId=premium-algo-100)
 - [644. Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/?envType=study-plan-v2&envId=premium-algo-100)
+- [3048. Earliest Second to Mark Indices I](https://leetcode.com/problems/earliest-second-to-mark-indices-i/)

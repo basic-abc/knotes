@@ -4,3 +4,7 @@
 
 ### Applications
 - Shortest path
+- When iterations are bounded, BFS can often be applied without triggering TLE 
+
+### Examples
+- [Tree Diameter](https://leetcode.com/problems/tree-diameter/)
